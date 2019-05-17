@@ -28,7 +28,7 @@ export default class CategoryForm extends React.Component {
                         name="name"
                         value={this.state.name}
                         onChange={this.handleChange}
-                        placeholder="name"
+                        placeholder="Category Name"
                     />
                 <button type="submit">Create Category</button>
             </form>

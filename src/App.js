@@ -9,7 +9,7 @@ class App extends React.Component{
     return (
       <div>
         <CategoryForm onComplete={this.props.mappedCategoryCreate}/>
-        {this.props.categories.map(current => <p>{current.name}</p>)}
+        {this.props.categories.map(current => <p>{current.title}</p>)}
       </div>
     )
   }
